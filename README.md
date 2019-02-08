@@ -36,7 +36,7 @@ local computer. **NOTE** not a required step to complete the lab.
   * Instructions: https://docs.aws.amazon.com/codedeploy/latest/userguide/getting-started-create-service-role.html#getting-started-create-service-role-console
 
 * Create an IAM instance profile (Policy and Role to manage EC2 instances for the deploy)
-  * Instuctions: INGORE NOTE ON STEP 3: https://docs.aws.amazon.com/codedeploy/latest/userguide/getting-started-create-iam-instance-profile.html#getting-started-create-iam-instance-profile-console
+  * Instuctions: IGNORE NOTE ON STEP 3: https://docs.aws.amazon.com/codedeploy/latest/userguide/getting-started-create-iam-instance-profile.html#getting-started-create-iam-instance-profile-console
 
 * Create an EC2 Instance that will host your application
   * **IMPORTANT** Use **ami-0cd3dfa4e37921605**, choose an exisiting VPC that you have used for a previous lab that has worked for you in the past, and when given the option for **auto-assign** public ip choose enable, Make sure on the security group page you add HTTP as an inbound rule with the default ssh rule.
